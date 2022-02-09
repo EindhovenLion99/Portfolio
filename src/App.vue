@@ -1,31 +1,22 @@
 <template>
-  <H1>Noah Sanchez</H1>
+  <Navbar/>
+  <router-view />
   <Footer/>
 </template>
 
 <script>
 import Footer from './components/Footer.vue'
+import Navbar from './components/Navbar.vue'
+import './App.css'
 
 export default {
   name: 'App',
   components: {
-    Footer
+    Footer,
+    Navbar
   }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-#app {
-  font-family: 'Zen Kurenaido', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: white;
-  margin-top: 60px;
-}
-
-body {
-  background: #202023;
-}
 </style>

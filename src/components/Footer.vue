@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <span>&copy; Noah Sanchez {{ new Date().getFullYear() }}</span>
+    <span>&copy; {{ new Date().getFullYear() }} Noah Sanchez. All Rights Reserved</span>
   </div>
 </template>
 
@@ -12,8 +12,13 @@ export default {
 
 <style scoped>
 .container {
-  width: 300px;
+  width: 95%;
+  font-size: 1rem !important;
   margin: auto;
-  font-size: 25px;
+  font-size: 3rem;
+  color: grey;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 </style>
